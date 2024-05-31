@@ -54,5 +54,4 @@ dataset = create_dataset(data)
 
 device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
 
-batch_size = 20
-eval_batch_size = 10
+print(len(data))

@@ -2,7 +2,7 @@ import os
 import math
 from tempfile import TemporaryDirectory
 from typing import Tuple
-
+#https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch
 import torch
 from torch import nn, Tensor
 from torch.nn import TransformerEncoder, TransformerEncoderLayer

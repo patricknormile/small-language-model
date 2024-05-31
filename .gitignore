@@ -127,6 +127,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+slm-env/
 
 # Spyder project settings
 .spyderproject
@@ -163,3 +164,4 @@ credentials.json
 token.json
 artifacts/
 .vscode/
+mlruns/

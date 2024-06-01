@@ -22,7 +22,7 @@ directory = os.path.dirname(os.path.abspath(__file__))
 if directory not in sys.path:
     sys.path.append(directory)
 
-from transformer_code import PositionalEncoding
+from non_working.transformer_code import PositionalEncoding
 from transformers import RobertaTokenizerFast
 tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base',max_length=128)
 vocab=RobertaTokenizerFast.vocab

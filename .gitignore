@@ -166,3 +166,4 @@ artifacts/
 .vscode/
 mlruns/
 outputs/
+.DS_store
